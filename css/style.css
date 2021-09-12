@@ -1,35 +1,59 @@
 :root {
-  --branding-color:#6C62FF;
+  --branding-color:#ff847c;
   --heading-font-family:'Ubuntu', sans-serif;
   --default-font-family:'Glory', sans-serif;
---secondary-color:#F7F2F7;
+--secondary-color:#f5e1da;
 }
-
+body p {
+  font-family: var(--default-font-family);
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 30px;
+  padding: 100px 30px;
 }
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
+  opacity: 85%;
 }
 h2 {
   font-family: var(--heading-font-family);
-  font-size: 24px;
+  font-size: 28px;
+  opacity: 90%;
   
 }
 .hero p {
   font-size: 36px;
-  font-family: var(--default-font-family);
-  font-weight: bold;
+  font-family: var(--heading-font-family);
+  opacity: 85%;
   margin: 0;
 }
 .btn-branding {
- border-radius: 4px;
+ border-radius: 6px;
  background-color: var(--branding-color);
  color:white;
  padding: 15px 30px;
  font-size: 18px;
  line-height: 27px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: bolder;
+}
+@media (max-width: 585px) 
+{
+  p, h2 {
+    text-align: center;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .learn-button {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+   }
 }
