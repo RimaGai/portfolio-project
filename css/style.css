@@ -42,7 +42,13 @@ p {
   line-height: 1.7;
   font-weight: bolder;
 }
-@media (max-width: 585px) 
+.about-section {
+ padding: 100px 30px;
+}
+.about-section h1 {
+  font-size: 70px;
+}
+@media (max-width: 900px) 
 {
   p, h2 {
     text-align: center;
@@ -52,8 +58,14 @@ p {
     font-size: 50px;
   }
   .learn-button {
-    display: block;
     text-align: center;
-    margin: 0 20px;
+   
+   }
+   .about-section {
+     text-align: center;
+     padding: 30px 30px;
+   }
+   .about-section h1 {
+     font-size: 50px;
    }
 }
