@@ -4,13 +4,48 @@
   --default-font-family:'Glory', sans-serif;
 --secondary-color:#f5e1da;
 }
-body p {
+body {
   font-family: var(--default-font-family);
+}
+.navigation {
+  background-color: var(--secondary-color);
+  padding: 0 30px;
+  
+}
+nav {
+  padding: 20px 0;
+  
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  
+}
+nav :hover,
+li.active a {
+  color: var(--branding-color);
+}
+
+.logo {
+  max-width: 100px;
 }
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 100px 30px;
+  padding: 50px 30px;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -25,7 +60,6 @@ h2 {
 }
 .hero p {
   font-size: 36px;
-  font-family: var(--heading-font-family);
   opacity: 85%;
   margin: 0;
 }
