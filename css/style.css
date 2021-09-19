@@ -138,7 +138,15 @@ footer .social-links a {
 .carousel img {
   height: 400px;
 }
-
+.scroll-arrow {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.scroll-up {
+  color: var(--branding-color);
+}
 @media (max-width: 900px) {
   p,
   h2 {
