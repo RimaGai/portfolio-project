@@ -78,10 +78,10 @@ h3 {
   font-size: 18px;
   font-weight: bolder;
   line-height: 27px;
+  margin-left: 30px;
 }
 .project-buttons {
   display: flex;
-  justify-content: space-evenly;
 }
 .btn-code :hover {
   color: var (--branding-color);
