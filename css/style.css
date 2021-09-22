@@ -172,4 +172,7 @@ footer .social-links a {
   .project-buttons {
     justify-content: center;
   }
+  .contact-link a {
+    color: black;
+  }
 }
