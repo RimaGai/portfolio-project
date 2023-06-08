@@ -70,6 +70,10 @@ h3 {
   font-weight: bolder;
 }
 
+.name {
+  font-size: 40px;
+}
+
 .btn-branding {
   border-radius: 6px;
   background-color: var(--branding-color);
@@ -135,7 +139,7 @@ p {
 
 footer {
   background-color: var(--secondary-color);
-  padding: 10px;
+  padding: 20px;
 }
 
 footer .social-links a {
@@ -189,22 +193,28 @@ footer .social-links a {
     text-align: center;
     line-height: 1.5;
   }
+
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
+
   .learn-button {
     text-align: center;
   }
+
   .content-container {
     text-align: center;
     padding: 30px 30px;
   }
+
   .content-container h1 {
     font-size: 50px;
   }
+
   .project-buttons {
     justify-content: center;
   }
+
   .contact-link a {
     color: black;
   }
